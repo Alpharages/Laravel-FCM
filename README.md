@@ -1,7 +1,7 @@
 # Laravel-FCM
 
-[![Build Status](https://travis-ci.org/brozot/Laravel-FCM.svg?branch=master)](https://travis-ci.org/brozot/Laravel-FCM) [![Coverage Status](https://coveralls.io/repos/github/brozot/Laravel-FCM/badge.svg?branch=master)](https://coveralls.io/github/brozot/Laravel-FCM?branch=master) [![Latest Stable Version](https://poser.pugx.org/brozot/laravel-fcm/v/stable)](https://packagist.org/packages/brozot/laravel-fcm) [![Total Downloads](https://poser.pugx.org/brozot/laravel-fcm/downloads)](https://packagist.org/packages/brozot/laravel-fcm)
-[![License](https://poser.pugx.org/brozot/laravel-fcm/license)](https://packagist.org/packages/brozot/laravel-fcm)
+[![Build Status](https://travis-ci.org/alpharages/Laravel-FCM.svg?branch=master)](https://travis-ci.org/alpharages/Laravel-FCM) [![Coverage Status](https://coveralls.io/repos/github/alpharages/Laravel-FCM/badge.svg?branch=master)](https://coveralls.io/github/alpharages/Laravel-FCM?branch=master) [![Latest Stable Version](https://poser.pugx.org/alpharages/laravel-fcm/v/stable)](https://packagist.org/packages/alpharages/laravel-fcm) [![Total Downloads](https://poser.pugx.org/alpharages/laravel-fcm/downloads)](https://packagist.org/packages/alpharages/laravel-fcm)
+[![License](https://poser.pugx.org/alpharages/laravel-fcm/license)](https://packagist.org/packages/alpharages/laravel-fcm)
 
 ## Introduction
 
@@ -21,7 +21,7 @@ It currently **only supports HTTP protocol** for :
 To get the latest version of Laravel-FCM on your project, require it from "composer":
 
 
-	$ composer require brozot/laravel-fcm
+	$ composer require alpharages/laravel-fcm
 
 
 Or you can add it directly in your composer.json file:
@@ -29,7 +29,7 @@ Or you can add it directly in your composer.json file:
 ```json
 {
     "require": {
-        "brozot/laravel-fcm": "1.3.*"
+        "alpharages/laravel-fcm": "1.3.*"
     }
 }
 ```
@@ -84,7 +84,7 @@ class_alias(\LaravelFCM\Facades\FCM::class, 'FCM');
 class_alias(\LaravelFCM\Facades\FCMGroup::class, 'FCMGroup');
 ```
 
-Copy the config file ```fcm.php``` manually from the directory ```/vendor/brozot/laravel-fcm/config``` to the directory ```/config ``` (you may need to create this directory).
+Copy the config file ```fcm.php``` manually from the directory ```/vendor/alpharages/laravel-fcm/config``` to the directory ```/config ``` (you may need to create this directory).
 
 
 ### Package Configuration
